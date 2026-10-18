@@ -1,11 +1,11 @@
-# The Homebrew formula for detoo.  The Release workflow fills in 0.1.0 and
-# 29dae884f4a969dc9bee6ba92423479cf10f72eaeda711c248fda86657c5d9ce for each release, and publishes the result to
+# The Homebrew formula for detoo.  The Release workflow fills in 0.2.0 and
+# 1623ff7cf10d6230b55a2e68976906101e0a049b4f3c0b58415e28a1504e51a0 for each release, and publishes the result to
 # https://github.com/mustardcustarddev/homebrew-tap, as Formula/detoo.rb.
 class Detoo < Formula
   desc "Command-line tools and agentic skills for working with decision records"
   homepage "https://mustardcustarddev.github.io/detoo/"
-  url "https://github.com/mustardcustarddev/detoo/releases/download/v0.1.0/detoo_0.1.0_darwin_arm64.tar.gz"
-  sha256 "29dae884f4a969dc9bee6ba92423479cf10f72eaeda711c248fda86657c5d9ce"
+  url "https://github.com/mustardcustarddev/detoo/releases/download/v0.2.0/detoo_0.2.0_darwin_arm64.tar.gz"
+  sha256 "1623ff7cf10d6230b55a2e68976906101e0a049b4f3c0b58415e28a1504e51a0"
   license "Apache-2.0"
 
   livecheck do
