@@ -1,11 +1,11 @@
-# The Homebrew formula for detoo.  The Release workflow fills in 0.2.0 and
-# 1623ff7cf10d6230b55a2e68976906101e0a049b4f3c0b58415e28a1504e51a0 for each release, and publishes the result to
+# The Homebrew formula for detoo.  The Release workflow fills in 0.3.0 and
+# 0f875c73020cdd1c21d32ef8c84e83c1d054d22dcd65ff973996445efc630e56 for each release, and publishes the result to
 # https://github.com/mustardcustarddev/homebrew-tap, as Formula/detoo.rb.
 class Detoo < Formula
   desc "Command-line tools and agentic skills for working with decision records"
   homepage "https://mustardcustarddev.github.io/detoo/"
-  url "https://github.com/mustardcustarddev/detoo/releases/download/v0.2.0/detoo_0.2.0_darwin_arm64.tar.gz"
-  sha256 "1623ff7cf10d6230b55a2e68976906101e0a049b4f3c0b58415e28a1504e51a0"
+  url "https://github.com/mustardcustarddev/detoo/releases/download/v0.3.0/detoo_0.3.0_darwin_arm64.tar.gz"
+  sha256 "0f875c73020cdd1c21d32ef8c84e83c1d054d22dcd65ff973996445efc630e56"
   license "Apache-2.0"
 
   livecheck do
@@ -27,7 +27,7 @@ class Detoo < Formula
   end
 
   test do
-    system bin/"sty", "init"
+    system bin/"ust", "init"
     assert_path_exists testpath/"docs/userstory/STORY-0001-describe-work-in-user-stories.md"
   end
 end
